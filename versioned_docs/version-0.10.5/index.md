@@ -61,7 +61,7 @@ Noir is simple and flexible in its design, as it does not compile immediately to
 NP-complete language. Instead, Noir compiles to an intermediate language (ACIR), which itself can be compiled
 to an arithmetic circuit (if choosing to target Aztec's barretenberg backend) or a rank-1 constraint system (if choosing to target an R1CS backend like Arkwork's Marlin backend, or others).
 
-This in itself brings up a few challenges within the design process, but allows one to decouple the programming language completely from the backend. This is similar in theory to LLVM.
+This in itself brings up a few challenges within the design process, but allows one to decouple the programming language completely from the backend. This is similar in theory to LLVM and the main advantage of that LLVM brings is in speed and efficiency as it uses the just in time complilation that adjusts the code while it runs, and hence this results in quicker execution speed and efficient use of system resources.
 
 ## Current Features
 
