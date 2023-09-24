@@ -29,11 +29,15 @@ completed.
 
 Noir is a Domain Specific Language for SNARK proving systems. It has been designed to use any ACIR compatible proving system.
 
+Noir is an open-source language that facilitates the writing and verification of zero knowledge proofs. 
+
 It's design choices are influenced heavily by Rust and focuses on a simple, familiar syntax.
+
+
 
 ## Who is Noir for?
 
-Noir can be used for a variety of purposes.
+Noir can be used for a variety of purposes. The Noir syntax has been fashioned after Rust, allowing developers to easily incorporate crypto fundamentals into their workflows, without having to be specialists in cryptography. This approach will be helpful for people who want to learn about cryptography and write applications using zero knowledge proofs, but don't have the background expertise in cruptography.
 
 ### Solidity Developers
 
